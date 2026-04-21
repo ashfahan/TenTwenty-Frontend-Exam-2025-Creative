@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Turbo
+.turbo/
+
+# Generated files
+coverage/
+pnpm-lock.yaml
+
+# Prisma
+packages/schema/src/generated/

@@ -1,0 +1,49 @@
+{
+  "name": "tentwenty-frontend-exam-2025-creative",
+  "version": "1.0.0",
+  "description": "TenTwenty Frontend Exam 2025 - Creative (manual Webpack + Babel + React)",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "build:verify": "npm run typecheck && npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "remixicon": "^4.9.1",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "babel-loader": "^10.1.1",
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^7.1.4",
+    "glyphhanger": "^5.0.0",
+    "html-webpack-plugin": "^5.6.7",
+    "mini-css-extract-plugin": "^2.10.2",
+    "postcss": "^8.5.10",
+    "postcss-loader": "^8.2.1",
+    "prettier": "^3.8.3",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.3",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
